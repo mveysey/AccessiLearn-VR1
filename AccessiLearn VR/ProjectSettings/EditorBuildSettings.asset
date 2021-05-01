@@ -14,6 +14,21 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MainSquare.unity
     guid: 026ee9f3a564a6b428dee3657f37f09b
+  - enabled: 0
+    path: Assets/Scenes/Minigames/DanceGame.unity
+    guid: c57e7d3272112d14981275e425827e88
+  - enabled: 0
+    path: Assets/Scenes/Minigames/Emotion.unity
+    guid: f0bc35573f172ec44a9afcac665c3490
+  - enabled: 0
+    path: Assets/Scenes/Minigames/Recycling.unity
+    guid: 5e7af9e7831c1aa409867bf2ab2bc0b1
+  - enabled: 0
+    path: Assets/Scenes/Minigames/Story.unity
+    guid: cb88719eda20048428956b93b332c3fd
+  - enabled: 0
+    path: Assets/Scenes/Minigames/PettingZoo.unity
+    guid: db0f621d53da88e44bf5538b771f4eef
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 4a9241501eb77de4f9aeadc59984e099,
       type: 2}
