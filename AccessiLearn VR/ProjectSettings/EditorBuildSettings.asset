@@ -6,10 +6,10 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 0
-    path: Assets/BNG Framework/Scenes/XR Demo.unity
+    path: Assets/AssetPacks/BNG Framework/Scenes/XR Demo.unity
     guid: a1360534006d3f845bc79b46b93cfec5
   - enabled: 1
-    path: Assets/BNG Framework/Scenes/Physics Hands.unity
+    path: Assets/AssetPacks/BNG Framework/Scenes/Physics Hands.unity
     guid: 34a4579517c578e4080d0a6ef2c96294
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 4a9241501eb77de4f9aeadc59984e099,
