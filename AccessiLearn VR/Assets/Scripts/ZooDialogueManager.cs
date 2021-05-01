@@ -73,7 +73,7 @@ public class ZooDialogueManager : MonoBehaviour
         {
             foxUI.SetActive(true);
 
-            foxText.text = sentences[5];
+            foxText.text = sentences[3];
             audioSource.clip = fox;
             audioSource.Play();
             Destroy(other.gameObject);

@@ -16,6 +16,9 @@ TagManager:
   - cat
   - fox
   - penguin
+  - green
+  - yellow
+  - blue
   layers:
   - Default
   - TransparentFX
