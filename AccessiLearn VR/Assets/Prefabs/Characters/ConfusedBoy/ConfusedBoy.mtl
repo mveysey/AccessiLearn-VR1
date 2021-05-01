@@ -1,0 +1,62 @@
+# Exported from Fuse 1.3.0
+
+newmtl Shoes
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+map_Kd ConfusedBoy_Shoes_diffuse.png
+map_Ks ConfusedBoy_Shoes_specular.png
+bump ConfusedBoy_Shoes_normal.png
+map_Ns ConfusedBoy_Shoes_gloss.png
+
+newmtl Bottom
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+map_Kd ConfusedBoy_Bottom_diffuse.png
+map_Ks ConfusedBoy_Bottom_specular.png
+bump ConfusedBoy_Bottom_normal.png
+map_Ns ConfusedBoy_Bottom_gloss.png
+
+newmtl Top
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+map_Kd ConfusedBoy_Top_diffuse.png
+map_Ks ConfusedBoy_Top_specular.png
+bump ConfusedBoy_Top_normal.png
+map_Ns ConfusedBoy_Top_gloss.png
+
+newmtl Hair
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+map_Kd ConfusedBoy_Hair_diffuse.png
+map_Ks ConfusedBoy_Hair_specular.png
+bump ConfusedBoy_Hair_normal.png
+map_Ns ConfusedBoy_Hair_gloss.png
+
+newmtl Body
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+map_Kd ConfusedBoy_Body_diffuse.png
+map_Ks ConfusedBoy_Body_specular.png
+bump ConfusedBoy_Body_normal.png
+map_Ns ConfusedBoy_Body_gloss.png
+
