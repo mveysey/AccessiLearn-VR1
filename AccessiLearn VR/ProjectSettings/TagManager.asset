@@ -5,6 +5,17 @@ TagManager:
   serializedVersion: 2
   tags:
   - object
+  - main
+  - emotion
+  - recycling
+  - story
+  - zoo
+  - dance
+  - duck
+  - sheep
+  - cat
+  - fox
+  - penguin
   layers:
   - Default
   - TransparentFX
