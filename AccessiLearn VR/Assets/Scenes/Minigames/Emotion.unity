@@ -5144,7 +5144,6 @@ GameObject:
   - component: {fileID: 893699790}
   - component: {fileID: 893699789}
   - component: {fileID: 893699788}
-  - component: {fileID: 893699787}
   - component: {fileID: 893699791}
   m_Layer: 5
   m_Name: Next
@@ -5173,22 +5172,6 @@ RectTransform:
   m_AnchoredPosition: {x: 1.2019958, y: -0.5910034}
   m_SizeDelta: {x: 0.7, y: 0.5}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &893699787
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 893699785}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 68afae076805c914586894fc2e652bb9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  yourButton: {fileID: 893699789}
-  box: {fileID: 866781390}
-  character: {fileID: 0}
-  currChar: {fileID: 1316272328}
 --- !u!114 &893699788
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9386,7 +9369,6 @@ GameObject:
   - component: {fileID: 1570926271}
   - component: {fileID: 1570926270}
   - component: {fileID: 1570926269}
-  - component: {fileID: 1570926268}
   - component: {fileID: 1570926272}
   m_Layer: 5
   m_Name: Next
@@ -9415,23 +9397,6 @@ RectTransform:
   m_AnchoredPosition: {x: 1.202, y: -0.591}
   m_SizeDelta: {x: 0.7, y: 0.5}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1570926268
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1570926266}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 45ecb805b66eee746815c19519af394e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  yourButton: {fileID: 1570926270}
-  box1: {fileID: 323125168}
-  box2: {fileID: 866781390}
-  character: {fileID: 0}
-  currChar: {fileID: 1316272328}
 --- !u!114 &1570926269
 MonoBehaviour:
   m_ObjectHideFlags: 0

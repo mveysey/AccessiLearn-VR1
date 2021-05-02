@@ -21,7 +21,7 @@ public class TeleportGame : MonoBehaviour
         if (gameObject.CompareTag("emotion"))
         
         {
-            SceneManager.LoadScene("Emotion1");
+            SceneManager.LoadScene("Emotion");
 
         }
         if (gameObject.CompareTag("recycling"))

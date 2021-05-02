@@ -5,7 +5,7 @@ using UnityEngine;
 public class HelpMeTours : MonoBehaviour
 {
     public Transform player;
-    public float speed = 4f;
+    public float speed = 8f;
 
     private Rigidbody rb;
     // Start is called before the first frame update

@@ -2346,7 +2346,6 @@ GameObject:
   - component: {fileID: 772761889}
   - component: {fileID: 772761888}
   - component: {fileID: 772761887}
-  - component: {fileID: 772761886}
   - component: {fileID: 772761890}
   m_Layer: 5
   m_Name: Button
@@ -2375,20 +2374,6 @@ RectTransform:
   m_AnchoredPosition: {x: -1.233, y: -0.8}
   m_SizeDelta: {x: 0.7, y: 0.4}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &772761886
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 772761884}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a8c6249933f0e614bac8ba9ec41af7d1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  yourButton: {fileID: 772761888}
-  box: {fileID: 2112843909}
 --- !u!114 &772761887
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23426,6 +23411,12 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1320743347}
     m_Modifications:
+    - target: {fileID: 5133774996750456744, guid: 1411b6d2ad34b4c4e8d5245ca7299e7e,
+        type: 3}
+      propertyPath: clip
+      value: 
+      objectReference: {fileID: 8853924603056844937, guid: 6f6d825f396173f4ca5a83b17d7414dd,
+        type: 3}
     - target: {fileID: 5228152250690443227, guid: 1411b6d2ad34b4c4e8d5245ca7299e7e,
         type: 3}
       propertyPath: m_Name

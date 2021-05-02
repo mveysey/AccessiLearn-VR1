@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class MainDialogueManager : MonoBehaviour
@@ -64,18 +65,17 @@ public class MainDialogueManager : MonoBehaviour
             audioSource.clip = S8;
             audioSource.Play();
         }
-        if(audioNumber == 8)
+        if(!audioSource.isPlaying && audioNumber == 8)
         {
-            danceUI.SetActive(false);
+            SceneManager.LoadScene("MainSquare1");
         }
     }
-
 
     public void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == "main")
         {
-            mainUI.SetActive(true);
+            //mainUI.SetActive(true);
             audioNumber++;
 
             mainText.text = sentences[0];
@@ -86,8 +86,8 @@ public class MainDialogueManager : MonoBehaviour
 
         if (other.gameObject.tag == "emotion")
         {
-            mainUI.SetActive(false);
-            emotionUI.SetActive(true);
+           // mainUI.SetActive(false);
+           // emotionUI.SetActive(true);
             audioNumber++;
 
             emotionText.text = sentences[2];
@@ -98,8 +98,8 @@ public class MainDialogueManager : MonoBehaviour
 
         if (other.gameObject.tag == "recycling")
         {
-            emotionUI.SetActive(false);
-            recyclingUI.SetActive(true);
+            //emotionUI.SetActive(false);
+            //recyclingUI.SetActive(true);
             audioNumber++;
             recyclingText.text = sentences[3];
             audioSource.clip = S4;
@@ -109,8 +109,8 @@ public class MainDialogueManager : MonoBehaviour
 
         if (other.gameObject.tag == "story")
         {
-            recyclingUI.SetActive(false);
-            storyUI.SetActive(true);
+            //recyclingUI.SetActive(false);
+            //storyUI.SetActive(true);
             audioNumber++;
             storyText.text = sentences[4];
             audioSource.clip = S5;
@@ -120,8 +120,8 @@ public class MainDialogueManager : MonoBehaviour
 
         if (other.gameObject.tag == "zoo")
         {
-            storyUI.SetActive(false);
-            zooUI.SetActive(true);
+            //storyUI.SetActive(false);
+            //zooUI.SetActive(true);
             audioNumber++;
             zooText.text = sentences[5];
             audioSource.clip = S6;
@@ -131,8 +131,8 @@ public class MainDialogueManager : MonoBehaviour
 
         if (other.gameObject.tag == "dance")
         {
-            zooUI.SetActive(false);
-            danceUI.SetActive(true);
+            //zooUI.SetActive(false);
+            //danceUI.SetActive(true);
             audioNumber++;
             discoText.text = sentences[6];
             audioSource.clip = S7;
