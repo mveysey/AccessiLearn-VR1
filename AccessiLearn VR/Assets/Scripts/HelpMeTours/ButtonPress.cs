@@ -18,7 +18,7 @@ public class ButtonPress : MonoBehaviour
     IEnumerator Test()
     {
         yield return new WaitForSeconds(5);
-        emotionGuide.SetActive(true);
+        
     }
     public void EmotionTour()
     {

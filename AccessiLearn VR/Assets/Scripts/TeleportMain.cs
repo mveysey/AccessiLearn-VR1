@@ -19,11 +19,11 @@ public class TeleportMain : MonoBehaviour
     void TaskOnClick()
     {
 
-        SceneManager.LoadScene("MainSquare1");
+        SceneManager.LoadScene("MainSquare");
 
     }
     public static void Teleport()
     {
-        SceneManager.LoadScene("MainSquare1");
+        SceneManager.LoadScene("MainSquare");
     }
 }

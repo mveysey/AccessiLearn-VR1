@@ -67,7 +67,7 @@ public class MainDialogueManager : MonoBehaviour
         }
         if(!audioSource.isPlaying && audioNumber == 8)
         {
-            SceneManager.LoadScene("MainSquare1");
+            SceneManager.LoadScene("MainSquare");
         }
     }
 
